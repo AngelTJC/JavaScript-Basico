@@ -2,7 +2,7 @@ let opciones = ["piedra", "papel", "tijera"];
 
 function random(min, max) {
     return Math.floor(Math.random() * (2 - 0 + 1)) + 0;
-}
+} 
 
 let cpu = opciones[random(0, 2)];
 
